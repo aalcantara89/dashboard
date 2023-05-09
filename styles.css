@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+  }
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 4px;
+    font-family: roboto;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: #810eab;
+}
+
+.sidebar {
+    grid-row: 1 / 4;
+    background-color: #0ea5e9;
+    display: grid;
+    color: white;
+}
+.sidebar ul {
+    padding: 20px;
+    list-style-type: none;
+}
+.sidebar li {
+    padding: 10px;
+}
+.sidebar p {
+    padding: 20px;
+    font-weight: bold;
+}
+.header input[type=text] {
+    border-radius: 25px;
+    border: none;
+    background-color: #d1d5db;
+    width: 50%;
+}
+.right {
+    float: right;
+}
+.projects {
+    display: grid;   
+    grid-template-columns: 1fr 1fr;
+    background-color: #d1d5db;
+}
+.projects .card {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    height: 150px;
+    gap: 25px;
+    align-items: center;
+}
+.projects .right-side {
+    background-color: #FFFFFF;
+}
+.announcements ul {
+    padding: 20px;
+    list-style-type: none;
+}
+.trending ul {
+    padding: 20px;
+    list-style-type: none;
+}
+.card p {
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 5px;
+}
+button {
+    background-color: #0ea5e9;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 32px;
+    margin: 10px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
